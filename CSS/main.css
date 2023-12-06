@@ -1,0 +1,112 @@
+.phonecases {
+    text-align: center;
+}
+
+#logo {
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(212, 212, 212);
+    color: white;
+    
+
+
+}
+
+
+
+
+.menu{  margin:0;
+padding:0;
+box-sizing: border-box;
+position: left;
+font-size: 2rem;
+color:black;
+    justify-content: space-between;
+position: absolute;
+
+
+       }
+       .chat-bubbles {
+        font-size: 2rem; 
+        
+    
+    }
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    flex: 0 0 auto; /* Prevent header from growing */
+}
+
+
+.menu {
+    display:flex; 
+    align-items: flex-end;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+.phonecases-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phonecases {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.chat-bubbles {
+    margin-top: 20px; 
+    text-align: right;
+}
+
+.logo-instagram {  
+text-align: bottom;
+
+
+       }
+
+
+.cases{     
+
+    border:1px solid #DDD
+}
+
+.header { 
+    background-color:rgb(164, 169, 173);
+}
