@@ -13,11 +13,14 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(216, 216, 216);
 }
 
 
 header {
+    flex-direction: column;
+    align-items: center;
+    display:flex;
     text-align: center;
     padding: 30px;
     background-color: rgb(212, 212, 212);
@@ -28,9 +31,22 @@ header {
 }
 
 
+.category-container  {
+
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+
+ }
+
+ figure {
+    margin-left: 0;
+    grid-area:img; 
+
+}
 
 
-.menu{  margin:0;
+.menu{
+  margin:0;
 padding:0;
 box-sizing: border-box;
 position: left;
@@ -43,6 +59,8 @@ position: absolute;
        }
        .chat-bubbles {
         font-size: 2rem; 
+        position:center;
+     
         
     
     }
@@ -63,16 +81,10 @@ header {
     padding: 20px;
     background-color: #f3f3f3;
     color: rgb(0, 0, 0);
-    flex: 0 0 auto; /* Prevent header from growing */
+    flex: 0 0 auto; 
 }
 
 
-.menu {
-    display:flex; 
-    align-items: flex-end;
-    padding: 20px;
-    text-align: left;
-}
 
 
 
@@ -90,16 +102,9 @@ header {
 }
 
 
-.chat-bubbles {
-    margin-top: 20px; 
-    text-align: right;
-}
-
-.logo-instagram {  
-text-align: bottom;
 
 
-       }
+       
 
 
 .cases{     
@@ -109,4 +114,89 @@ text-align: bottom;
 
 .header { 
     background-color:rgb(164, 169, 173);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
 }
+
+/* icons */
+
+.cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #333; 
+    margin-left: auto; 
+}
+
+.cart i {
+    font-size: 2.1rem; 
+    margin-right: 5px; /* Adds some spacing between the icon and the amount */
+}
+
+.cartAmount {
+    background-color: #f00; /* Set the background color for the cart amount */
+    color: #fff; /* Set the text color for the cart amount */
+    font-size: 0.5rem; /* Adjust the font size of the cart amount */
+    border-radius: 60%; /* Make it a circle */
+    padding: 5px 8px; /* Add some padding for better appearance */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px; 
+}
+
+.search-bar i {
+    margin-right: 5px;
+    color: #333; /
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 150px;
+}
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    color: #333; /
+    cursor: pointer;
+}
+
+.menu-icon i {
+    font-size: 1.5rem; 
+    margin-right: 10px; 
+}
+
+
+
+
+
+.cases {
+    border: 2px solid #ddd; 
+    margin: 10px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.cases:hover {
+    transform: scale(1.05); 
+}
+
+
