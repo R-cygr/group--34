@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/main.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <h2>Case-it.com</h2>
+        <div class="search-bar">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="cart">
+            <i class="bi bi-basket2-fill"></i>
+            <div class="cartAmount">0</div>
+        </div>
+        <div class="menu-icon">
+            <i class="bi bi-list"></i>
+        </div>
+    </header>
+   
+    <div class="mainproduct">
+        <div class="image-container">
+            <img src="IMG/case1.webp" width="35%" alt="Samsung Case">
+            <h1>Samsung Case</h1>
+        </div>
+    <div class="product-details">
+            <p>Silicon case , will protect your phone from any dangerous falls. Waterproof + comes with a free screenprotector to further protect your screen from any scratches</p>
+            <select>
+                <option value="Select Model">Select Model</option>
+                <option value="S23">S23</option>
+                <option value="S23 ultra">S23 ultra</option>
+                <option value="Z-Flip">Z-flip</option>
+                <option value="S-Note13">S-Note13</option>
+                
+            </select>
+            <button class="add-to-cart">Add to cart</button>
+
+        <div class="cart-icon" onclick="toggleCart()">Cart</div>
+        <div class="cart" id="cart">
+        <div class="cart-items" id="cartItems">
+    </div>
+        <div class="cart-actions">
+        <button onclick="checkout()">Proceed to Checkout</button>
+        <button onclick="toggleCart()">Continue Shopping</button>
+    </div>
+    </div>
+</div>
+    </div>
+   
+    <div id="cart">
+        <ul id="cart-items"></ul>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

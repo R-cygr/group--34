@@ -176,7 +176,7 @@ justify-content: space-between;
     align-items: center;
     justify-content: flex-start; /* Align items to the left */
     color: #333; /
-    cursor: pointer;
+  
 }
 
 .menu-icon i {
@@ -217,7 +217,7 @@ justify-content: space-between;
 
 /* Demetris Part*/
 
-.product {
+.mainproduct {
     position: relative;
     width: 35%; /* Set the width of the product container */
 }
@@ -227,7 +227,7 @@ justify-content: space-between;
 }
 
 .image-container img {
-    width: 100%; /* Ensure the image fills its container */
+    width: 100%; 
     display: block;
 }
 
@@ -237,15 +237,15 @@ justify-content: space-between;
     left: 0;
     margin: 0;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.7); 
 }
 
 /* INFORMATION FOR THE PRODUCT PLUS BUTTONS FOR PURCHASE-BASKET */
 
-.product {
+.mainproduct {
     display: flex;
     align-items: center;
-    width: 70%; /* Adjust the width of the product container */
+    width: 100%; /* Adjust the width of the product container */
     margin: 20px auto;
 }
 
@@ -286,11 +286,4 @@ justify-content: space-between;
     background-color: #008CBA; /* Blue */
     color: white;
 }
-
-.additional-products {
-    display: flex;
-    justify-content: space-around; /* Adjust to space items as needed */
-    margin-top: 20px;
-}
-
 

@@ -48,14 +48,14 @@ let cartItems = [];
 const addToCartButton = document.querySelector('.add-to-cart');
 
 // Add event listener to the button
-addToCartButton.addEventListener('click', () => {
+addToCartButton.addEventListener('click',  () => {
     // Call addToCart function when the button is clicked
-    addToCart('Product Name'); // Replace 'Product Name' with your product's name
+    addToCart('Samsung Case'); // Replace 'Product Name' with your product's name
 });
 
-function addToCart(productName) {
+function addToCart(SamsungCASE) {
     // Add the product to the cart items array
-    cartItems.push(productName);
+    cartItems.push(sAMSUNGcase);
     
     // Increment the cart items count
     cartItemsCount++;
