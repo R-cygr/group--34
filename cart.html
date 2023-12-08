@@ -78,6 +78,8 @@
             font-size: 24px;
         }
     </style>
+
+
 </head>
 
 <body>
@@ -95,13 +97,22 @@
             <i class="bi bi-list"></i>
         </div>
     </header>
-    <title>Your CArt</title>
-    
-    
-    <div class="image-container">
-        <img src="IMG/case1.webp" width="35%" alt="Samsung Case">
-        <h1>Samsung Case</h1>
-    </div>
+    <h2>Your Cart:</h2>
+
+    <div class="mainproduct">
+        <div class="image-container">
+            <img src="IMG/case1.webp" width="35%" alt="Samsung Case">
+            <h1>Samsung Case</h1>
+        </div>
+        <div class="cart-actions">
+            <button onclick="checkout()">Proceed to Checkout</button>
+            <button onclick="toggleCart()">
+                <a href="phonecases.html" style="text-decoration: none; color: inherit;">
+                    Continue Shopping
+                </a>
+            </button>
+            
+        </div>
 
 
 
