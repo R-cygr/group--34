@@ -277,7 +277,7 @@ justify-content: space-between;
     cursor: pointer;
 }
 
-.add-to-basket {
+.add-to-cart {
     background-color: #4CAF50; /* Green */
     color: white;
 }
@@ -287,5 +287,10 @@ justify-content: space-between;
     color: white;
 }
 
+.additional-products {
+    display: flex;
+    justify-content: space-around; /* Adjust to space items as needed */
+    margin-top: 20px;
+}
 
 
