@@ -287,3 +287,18 @@ justify-content: space-between;
     color: white;
 }
 
+/* CART STYLING */
+
+.mainproduct {
+    text-align: center; /* Center-align the content */
+}
+
+.cart-actions {
+    margin-top: 20px; /* Add space between the headline and buttons */
+}
+
+.cart-actions h3 {
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add space below the headline */
+}
+
