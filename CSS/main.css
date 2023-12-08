@@ -12,9 +12,6 @@
     margin-bottom: 20px;
 }
 
-body {
-    background-color: rgb(216, 216, 216);
-}
 
 
 header {
@@ -214,4 +211,6 @@ justify-content: space-between;
     animation: highlight 0.5s;
 }
 
+
+/*FORM*/
 
