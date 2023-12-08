@@ -215,3 +215,77 @@ justify-content: space-between;
 }
 
 
+/* Demetris Part*/
+
+.product {
+    position: relative;
+    width: 35%; /* Set the width of the product container */
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%; /* Ensure the image fills its container */
+    display: block;
+}
+
+.image-container h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a semi-transparent background */
+}
+
+/* INFORMATION FOR THE PRODUCT PLUS BUTTONS FOR PURCHASE-BASKET */
+
+.product {
+    display: flex;
+    align-items: center;
+    width: 70%; /* Adjust the width of the product container */
+    margin: 20px auto;
+}
+
+.image-container {
+    flex: 0 0 35%; /* Set the width of the image container */
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h1 {
+    margin-top: 0;
+}
+
+.product-details select,
+.product-details button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-basket {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.buy-now {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+
+
