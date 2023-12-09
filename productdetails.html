@@ -15,8 +15,10 @@
             <input type="text" placeholder="Search...">
         </div>
         <div class="cart">
-            <i class="bi bi-basket2-fill"></i>
-            <div class="cartAmount">0</div>
+            <a href="cart.html" class="cart">
+                <i class="bi bi-basket2-fill"></i>
+                <div class="cartAmount">0</div>
+            </a>            
         </div>
         <div class="menu-icon">
             <i class="bi bi-list"></i>
@@ -38,17 +40,26 @@
                 <option value="S-Note13">S-Note13</option>
                 
             </select>
-            <button class="add-to-cart">Add to cart</button>
+            <button class="add-to-cart"> Add to cart</button>
 
         <div class="cart-icon" onclick="toggleCart()">Cart</div>
         <div class="cart" id="cart">
         <div class="cart-items" id="cartItems">
     </div>
-        <div class="cart-actions">
-        <button onclick="checkout()">Proceed to Checkout</button>
-        <button onclick="toggleCart()">Continue Shopping</button>
+    <div class="cart-actions">
+        <button onclick="checkout()">
+            <a href="payment.html" style="text-decoration: none; color: inherit;">
+            Proceed to Checkout
+            </a>
+        </button>
+        <button onclick="toggleCart()">
+            <a href="phonecases.html" style="text-decoration: none; color: inherit;">
+                Continue Shopping
+            </a>
+        </button>
     </div>
-    </div>
+</div>
+
 </div>
     </div>
    
