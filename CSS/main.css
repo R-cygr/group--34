@@ -296,3 +296,75 @@ p {
     text-align: center;
 
 }
+
+/* Styles specific to the Samsung case page */
+.samsung-case-page header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.samsung-case-page .search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.samsung-case-page .search-bar input {
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.samsung-case-page .cart {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.samsung-case-page h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.samsung-case-page #mainproduct {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.samsung-case-page #mainproduct .image-container {
+    margin-bottom: 20px;
+}
+
+.samsung-case-page #mainproduct img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.samsung-case-page #price {
+    text-align: center;
+}
+
+.samsung-case-page .cart-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.samsung-case-page .cart-actions button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.samsung-case-page .cart-actions button:hover {
+    background-color: #0056b3;
+}
+
