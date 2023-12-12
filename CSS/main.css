@@ -47,8 +47,9 @@ body {
 
 
 
-.phonecases-container {
+.grid-container {
     display: flex;
+    display: grid;
     flex: 1;
     justify-content: space-around;
     align-items: center;
@@ -152,10 +153,6 @@ body {
     50% {
         background-color: transparent;
     }
-}
-
-.cartAmount.highlight {
-    animation: highlight 0.5s;
 }
 
 /*FORM*/
